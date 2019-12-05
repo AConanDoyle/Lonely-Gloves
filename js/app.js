@@ -26,7 +26,7 @@ function onEachFeature(feature, layer) {
 }
 
 // add data to map
-L.geoJson(gloves, {
+var layerGloves = new L.geoJson(gloves, {
     pointToLayer: function(feature, latlng) {
         return L.marker(latlng, {
             icon: gloveIcon
@@ -34,3 +34,4 @@ L.geoJson(gloves, {
     },
     onEachFeature: onEachFeature
 }).addTo(map);
+map.fitBounds(layerGloves.getBounds());
