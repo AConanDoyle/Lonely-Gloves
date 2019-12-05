@@ -15,8 +15,8 @@ var gloveIcon = L.icon({
     iconSize: [28, 45],
     iconAnchor: [12, 41],
     popupAnchor: [-6, -41],
-    iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
-    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png'
+    iconUrl: 'https://magnesia-berlin.de/extra/lonely-gloves/icon/marker-violet.png',
+    shadowUrl: 'https://magnesia-berlin.de/extra/lonely-gloves/icon/marker-shadow.png'
 });
 
 // set pop up windows

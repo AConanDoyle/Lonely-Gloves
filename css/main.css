@@ -14,3 +14,20 @@ body,
     background: #585353cb;
     color: #ffffff;
 }
+.leaflet-control-zoom a{
+   box-shadow: 0 1px 5px rgba(0,0,0,0.65); 
+}
+.leaflet-bar a{
+  border-radius: 4px;
+  background-color: #585353cb;
+  border: 1px solid #585353cb;
+  color: rgb(255, 255, 255);
+}
+.leaflet-bar a:last-child{
+  border: 1px solid rgba(0,0,0,.15);
+}
+.leaflet-bar a:hover{
+  background-color: #9C3ED2;
+  border: 1px solid rgba(0,0,0,.15);
+  color: #ffffff;
+}
