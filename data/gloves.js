@@ -36,7 +36,7 @@ var gloves =
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.455075, 52.502953] },
         "properties": { "cartodb_id": 16, "description": "found by C", "name": "Lonley Glove F'hain III", "imageurl": "Fhain_III_WhatsApp2019-11-13.jpeg" }
     }, {
-        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.3840892, 52.4858251] },
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.386324, 52.486702] },
         "properties": { "cartodb_id": 16, "description": "found by C", "name": "Lonley Glove X´berg IV", "imageurl": "C_Kreuzberg_IV_WhatsApp_2020_02_26.jpeg" }
     }]
 }
