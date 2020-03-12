@@ -25,7 +25,7 @@ var gloves =
         "properties": { "cartodb_id": 5, "description": "found by C", "name": "Lonley Glove X´berg I", "imageurl": "C_Kreuzberg_WhatsApp%20Image%202018-01-15%20at%2018.42.03.jpeg" }
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.424593, 52.467052] },
-        "properties": { "cartodb_id": 2, "description": "found by C", "name": "Lonely Glove Neukölln I", "imageurl": "C_Tempelhof_WhatsApp%20Image%202017-12-06%20at%2011.17.12.jpeg" }
+        "properties": { "cartodb_id": 2, "description": "found by C", "name": "Lonley Glove Neukölln I", "imageurl": "C_Tempelhof_WhatsApp%20Image%202017-12-06%20at%2011.17.12.jpeg" }
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.42265, 52.46537] },
         "properties": { "cartodb_id": 14, "description": "found by C", "name": "Lonley Glove Neukölln II", "imageurl": "C_Neukoelln_IIWhatsApp%20Image%202019-01-23%20at%2018.58.24.jpeg" }
@@ -41,5 +41,8 @@ var gloves =
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.3885021, 52.494133] },
         "properties": { "cartodb_id": 19, "description": "found by C", "name": "Lonley Glove X´berg V", "imageurl": "C_Kreuzberg_V_WhatsApp_Image_2020-03-11.jpeg" }
+    }, {
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.4315948, 52.4674759] },
+        "properties": { "cartodb_id": 20, "description": "found by C", "name": "Lonley Glove Neukölln III", "imageurl": "C_Neukoelln_III_WhatsApp_Image_2020-03-12.jpeg" }
     }]
 }
