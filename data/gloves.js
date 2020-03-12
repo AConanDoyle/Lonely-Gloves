@@ -34,9 +34,12 @@ var gloves =
         "properties": { "cartodb_id": 15, "description": "found by C", "name": "Lonley Glove F'hain II", "imageurl": "C_Fhain_22019-11-03.jpeg?raw=true" }
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.455075, 52.502953] },
-        "properties": { "cartodb_id": 16, "description": "found by C", "name": "Lonley Glove F'hain III", "imageurl": "Fhain_III_WhatsApp2019-11-13.jpeg" }
+        "properties": { "cartodb_id": 17, "description": "found by C", "name": "Lonley Glove F'hain III", "imageurl": "Fhain_III_WhatsApp2019-11-13.jpeg" }
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.386324, 52.486702] },
-        "properties": { "cartodb_id": 16, "description": "found by C", "name": "Lonley Glove X´berg IV", "imageurl": "C_Kreuzberg_IV_WhatsApp_2020_02_26.jpeg" }
+        "properties": { "cartodb_id": 18, "description": "found by C", "name": "Lonley Glove X´berg IV", "imageurl": "C_Kreuzberg_IV_WhatsApp_2020_02_26.jpeg" }
+    }, {
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.3885021, 52.494133] },
+        "properties": { "cartodb_id": 19, "description": "found by C", "name": "Lonley Glove X´berg V", "imageurl": "C_Kreuzberg_V_WhatsApp_Image_2020-03-11.jpeg" }
     }]
 }
