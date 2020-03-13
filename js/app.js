@@ -25,13 +25,22 @@ function onEachFeature(feature, layer) {
         layer.feature.properties.imageurl + "'/> <br>" + layer.feature.properties.name + "<br>" + layer.feature.properties.description, { 'className': 'custom' });
 }
 
+// clustering markers
+var layerGlovesCluster = L.markerClusterGroup({
+    spiderfyOnMaxZoom: true, showCoverageOnHover: false
+});
+
 // add data to map
-var layerGloves = new L.geoJson(gloves, {
+layerGlovesCluster.addLayer(L.geoJson(gloves, {
     pointToLayer: function(feature, latlng) {
         return L.marker(latlng, {
             icon: gloveIcon
         });
     },
     onEachFeature: onEachFeature
-}).addTo(map);
-map.fitBounds(layerGloves.getBounds());
+})).addTo(map);
+
+// set bounds for map
+map.fitBounds(layerGlovesCluster.getBounds(),{
+    paddingBottomRight: [20, 20]
+});
