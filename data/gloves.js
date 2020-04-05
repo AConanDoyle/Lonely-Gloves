@@ -44,5 +44,11 @@ var gloves =
     }, {
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.4315948, 52.4674759] },
         "properties": { "cartodb_id": 20, "description": "found by C", "name": "Lonley Glove Neukölln III", "imageurl": "C_Neukoelln_III_WhatsApp_Image_2020-03-12.jpeg" }
+    },{
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.468921, 52.497639] },
+        "properties": { "cartodb_id": 21, "description": "found by C", "name": "Lonley Glove F'hain IV", "imageurl": "C_Fhain_IV_WhatsApp_2020_03_17.jpeg" }
+    },{
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.491278, 52.480083] },
+        "properties": { "cartodb_id": 22, "description": "found by C", "name": "Lonley Glove Plaenterwald I", "imageurl": "C_Plaenterwald_I_WhatsApp_2020_04_04.jpeg" }
     }]
 }
