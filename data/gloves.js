@@ -50,5 +50,8 @@ var gloves =
     },{
         "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.491278, 52.480083] },
         "properties": { "cartodb_id": 22, "description": "found by C", "name": "Lonley Glove Plaenterwald I", "imageurl": "C_Plaenterwald_I_WhatsApp_2020_04_04.jpeg" }
+    },{
+        "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.465135, 52.497208] },
+        "properties": { "cartodb_id": 23, "description": "found by C", "name": "Lonley Glove F'hain V", "imageurl": "C_Fhain_V_WhatsApp Image 2020_04_10.jpeg" }
     }]
 }
