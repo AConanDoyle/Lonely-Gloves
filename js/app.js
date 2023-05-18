@@ -16,7 +16,7 @@ var gloveIcon = L.icon({
     iconAnchor: [12, 41],
     popupAnchor: [-6, -41],
     iconUrl: 'icon/marker-shadow.png',
-    shadowUrl: 'https://magnesia-berlin.de/extra/lonely-gloves/icon/marker-shadow.png'
+    shadowUrl: 'icon/marker-violet.png'
 });
 
 // set pop up windows
