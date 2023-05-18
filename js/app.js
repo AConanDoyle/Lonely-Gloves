@@ -21,7 +21,7 @@ var gloveIcon = L.icon({
 
 // set pop up windows
 function onEachFeature(feature, layer) {
-    layer.bindPopup("<img alt='image glove' text-align='justify' width='100px' src='/data/" +
+    layer.bindPopup("<img alt='image glove' text-align='justify' width='100px' src='data/" +
         layer.feature.properties.imageurl + "'/> <br>" + layer.feature.properties.name + "<br>" + layer.feature.properties.description, { 'className': 'custom' });
 }
 
