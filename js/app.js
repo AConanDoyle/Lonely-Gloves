@@ -15,13 +15,13 @@ var gloveIcon = L.icon({
     iconSize: [28, 45],
     iconAnchor: [12, 41],
     popupAnchor: [-6, -41],
-    iconUrl: 'icon/marker-shadow.png',
-    shadowUrl: 'icon/marker-violet.png'
+    iconUrl: 'icon/marker-violet.png',
+    shadowUrl: 'icon/marker-shadowt.png'
 });
 
 // set pop up windows
 function onEachFeature(feature, layer) {
-    layer.bindPopup("<img alt='image glove' text-align='justify' width='100px' src='/extra/lonely-gloves/data/" +
+    layer.bindPopup("<img alt='image glove' text-align='justify' width='100px' src='/data/" +
         layer.feature.properties.imageurl + "'/> <br>" + layer.feature.properties.name + "<br>" + layer.feature.properties.description, { 'className': 'custom' });
 }
 
